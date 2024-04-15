@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountAdd"
+    android:background="#67CBE4"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="120dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bank Account Registration Form"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="30sp"
+
+
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/first_name"
+                android:background="@drawable/custom_edittext"
+                android:drawablePadding="8dp"
+                android:hint="First Name"
+                android:padding="8dp"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+
+                android:layout_marginTop="40dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/last_name"
+                android:background="@drawable/custom_edittext"
+                android:drawablePadding="8dp"
+                android:hint="Last Name"
+                android:padding="8dp"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHighlight="#000"
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_edittext"
+                android:drawablePadding="8dp"
+                android:hint="Enter Your Username"
+                android:inputType="text"
+                android:padding="8dp"
+                android:id="@+id/usernameAccountAdd"
+                android:textColor="@color/black"
+                android:textColorHighlight="#000"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/phone_number"
+                android:background="@drawable/custom_edittext"
+                android:drawablePadding="8dp"
+                android:hint="Enter your phone number"
+                android:padding="8dp"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHighlight="#000"
+
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_edittext"
+                android:drawablePadding="8dp"
+                android:hint="Enter your Account Number"
+                android:padding="8dp"
+                android:inputType="number"
+                android:id="@+id/acc_number"
+                android:textColor="@color/black"
+                android:textColorHighlight="#000"
+
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_edittext"
+                android:drawablePadding="8dp"
+                android:hint="enter your Bank name"
+                android:padding="8dp"
+                android:id="@+id/bank_name"
+                android:textColorHighlight="#000"
+
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_edittext"
+                android:drawablePadding="8dp"
+                android:hint="enter your branch name"
+                android:padding="8dp"
+                android:inputType="text"
+                android:id="@+id/branch_name"
+
+                android:textColor="@color/black"
+                android:textColorHighlight="#000"
+
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_edittext"
+                android:drawablePadding="8dp"
+                android:hint="Enter your city"
+                android:padding="8dp"
+                android:inputType="text"
+                android:id="@+id/city"
+                android:textColor="@color/black"
+                android:textColorHighlight="#000"
+
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/amount_bank"
+                android:background="@drawable/custom_edittext"
+                android:drawablePadding="8dp"
+                android:hint="Amount in Your Account"
+                android:padding="8dp"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHighlight="#000"
+
+                android:layout_marginTop="20dp"/>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/signupButton"
+                android:text="Add Acount"
+                android:textSize="22sp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#000"
+                app:cornerRadius = "20dp"/>
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

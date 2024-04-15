@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">jshbank</string>
+    <string name="jsh_bank">JSH BANK</string>
+    <string name="username">Username</string>
+    <string name="registration">Registration</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="usernameu">Username</string>
+    <string name="sighup">SighUp</string>
+    <string name="add_account">ADD ACCOUNT</string>
+    <string name="already_an_user_login">Already an user? LOGIN</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="payment">Payment</string>
+    <string name="setting">Settings</string>
+    <string name="dhanlakshmi">DhanLakshmi</string>
+    <string name="dhanlakshmi_bank">DhanLakshmi Bank</string>
+    <string name="apkahorime">apkahorime</string>
+    <string name="no">no</string>
+
+
+</resources>

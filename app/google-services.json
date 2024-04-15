@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "654729848098",
+    "project_id": "jsh-bank",
+    "storage_bucket": "jsh-bank.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654729848098:android:9846b7ec92992d3575f17b",
+        "android_client_info": {
+          "package_name": "com.example.jshbank"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvA5og86VFk4T88uPrsiIVathBv_ElgSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
